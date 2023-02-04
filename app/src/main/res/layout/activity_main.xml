@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="40dp"
+        android:text="Medicine\nDonation"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log in"
+            android:clickable="true"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:shape="rectangle"
+            android:backgroundTint="@color/button_background_color"
+            android:background="@drawable/btn_shape_round"/>
+
+        <Button
+            android:id="@+id/btnsign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Sign Up As NGO"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:textSize="20dp"
+            android:shape="rectangle"
+            android:backgroundTint="@color/button_background_color"
+            android:background="@drawable/btn_shape_round"/>
+
+        <Button
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_shape_round"
+            android:backgroundTint="@color/button_background_color"
+            android:clickable="true"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:shape="rectangle"
+            android:text="Sign Up As Donor"
+            android:textAllCaps="false"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

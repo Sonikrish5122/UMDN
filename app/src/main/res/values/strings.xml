@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UMDN</string>
+
+    <string name="enter_name">Name</string>
+    <string name="enter_password">Password</string>
+    <string name="google">share_on_google</string>
+
+</resources>
